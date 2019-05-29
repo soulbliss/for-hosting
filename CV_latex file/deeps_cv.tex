@@ -1,0 +1,261 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{anysize}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=0.75in, right=0.75in, top=0.5in, bottom=0.75in, includefoot, headheight=13.6pt]{geometry}
+\usepackage{color,graphicx}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{latexsym}
+\usepackage{mdwlist}
+\usepackage{tabularx}
+\renewcommand{\labelitemii}{$\circ$}
+
+
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat's bookmarks
+    pdftoolbar=true,        % show Acrobat's toolbar?
+    pdfmenubar=true,        % show Acrobat's menu?
+    pdffitwindow=true,      % page fit to window when opened
+    pdftitle={CV},    % title
+    pdfauthor={Author},     % author
+    pdfsubject={RESUME},   % subject of the document
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=magenta,        % color of internal links
+    citecolor=blue,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+
+% Margines
+
+\addtolength{\oddsidemargin}{-0.215in}
+\addtolength{\textwidth}{0.2in}
+
+\definecolor{titleColor}{rgb}{0.85, 0.85, 0.85}
+
+\begin{document}
+
+%%%%%%%%% virtical space %%%%%%%%%%%%%%%%%
+
+
+\begin{table}[h!]
+     \begin{center}
+     \begin{tabular}{  l  p{10cm}  p{8cm}}
+	 \raisebox{-\totalheight}{\includegraphics[scale=.146]{manipal_logo}}
+	 &
+	 \begin{itemize}
+	 \setlength\itemsep{.01em}
+  		\item[] \textbf{Deepak Garasangi}
+		\item[] \textbf{Bachelor of Technology in Mechatronics Engineering}
+		\item[] \textbf{Manipal Institute of Technology Manipal, India}
+		\item[] \textbf{Deepak.garasangi@gmail.com}
+	\end{itemize}
+ 	 &
+	 \begin{itemize}
+	 	\setlength\itemsep{.01em}
+		\item[] \textbf{Male}
+		\item[] \textbf{DOB: 22/05/1998}
+		\item[] \textbf{+91 9167 304 808}
+		\item[] \textbf{https://deeps.site}	
+	\end{itemize}
+ 	 \end{tabular}
+	 \end{center}
+     \end{table}
+
+\vspace{-.8cm}
+
+\begin{tabularx}{.98\textwidth}{llp{2cm}lll}
+    \hline
+    \textbf{Examination} & \textbf{Specialization} & & \textbf{University / Board} & \textbf{Year} & \textbf{CGPA/ Marks}\\
+    \hline
+    %Post Graduation & Electronic Systems & & IIT Bombay & 2014 & 9.3/10 \\
+    Graduation & Mechatronics & & MIT Manipal & 2020* & 7.4/10\\
+    Intermediate & - & & CBSE & 2016 & 89.4/100 \\
+    Matriculation & - & & ICSE & 2014 & 91.16/100 \\
+    \hline
+\end{tabularx}
+\\\\
+
+%{\qquad \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\}
+
+\colorbox{titleColor}{\parbox{6.7in}{\textbf{Areas of Interest}}}
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \item {{Deep Learning, Natural Language Processing, Computational Linguistics,
+  Python Scripting}}
+ \end{itemize} 
+
+\colorbox{titleColor}{\parbox{6.7in}{\textbf{Technical Proficiency}}}\\
+
+\begin{tabular}{p{1.6in}p{0.1in}p{4.5in}}
+  \textbf{\small{Operating Systems}} &: &{{Linux, Windows}} \\
+  \textbf{\small{Programming Languages}} &: &{{Python, C++, Java}} \\
+  \textbf{\small{Frameworks and Tools}} &: &{{Tensorflow, Keras, Pytorch, Spacy, Git}} \\
+  \textbf{\small{Softwares/Tools}} &: &{{MATLAB, \LaTeX}} \\
+\end{tabular}
+
+\colorbox{titleColor}{\parbox{6.7in}{\textbf{Work Experience}}}
+
+
+\begin{itemize*}
+  \setlength{\itemsep}{.00pt}
+  \item \textbf{{Summer NLP Intern, Dept. of Sanskrit Studies, University of Hyderabad}} \hfill {\small{{\textbf{[May '19 - Present]}}\/}}
+  {(Guide : Prof. Amba Kulkarni, UoH)}
+  \hfill {\small{{\textit{Hyderabad, India}}\/}}
+      \begin{itemize*}
+      \item \textbf{Reimplementation of ACL conference paper on Poetry to Prose conversion in Sanskrit}.\\
+       Scraped data from Wikipedia, Mahabharata to form a corpus. Cleaned data to use BPE and learn vocabulary for the task. Trained the BPE vocabulary on VedaBase, Wikipedia using Word2Vec, FastText and character embeddings and form meta embeddings. Embeddings passed to a seq2seq model with attention to obtain correct prose order.
+      \end{itemize*}   
+\end{itemize*}
+
+\begin{itemize*}
+  \setlength{\itemsep}{.00pt}
+  \item \textbf{{Summer Software Intern, JNPT Port}} 
+  \hfill {\small{{\textbf{[May '18 - June '18]}}\/}}
+    \\{(Guide : Mr R D Rao, Manager CTCC)}
+  \hfill {\small{{\textit{Mumbai, India}}\/}}
+      \begin{itemize*}
+       \item \textbf{Data extraction from XML files of Port vessel container operations.}
+       \\Wrote a python script using BeautifulSoup to parse through the XML tree and
+       obtain the values. This script was used on 100 XML files to obtain output in neat legible text files, improving the productivity of senior employees.
+      \end{itemize*}
+      \begin{itemize*}
+       \item \textbf{Automated script for sending invoices along with attachments in bulk.}
+       \\Wrote a Python script to extract information from two excel files containing the recipient address and file name, then use this information to send an email.
+       Script used pyexcel, smptlib, selenium libraries. The script was used on 700 files and was comparatively faster than the Oracle based sql system being used previously.
+      \end{itemize*}   
+\end{itemize*}
+ 
+
+
+
+\colorbox{titleColor}{\parbox{6.7in}{\textbf{Personal Projects}}}
+
+
+\begin{itemize*}
+  \setlength{\itemsep}{1pt}
+  \item \textbf{\small{Alexa Trends Finder}} \hfill {\small{{\textbf{[Sep '18 - Nov '18]}}}\/} 
+\begin{itemize*}
+	\item Gather insights from the Alexa analytics website to see what is trending.
+	\item Implemented a python crawler that scrapes data and then outputs the most linked pages in a systematic order. Used BeautifulSoup and urllib libraries.
+\end{itemize*}
+\end{itemize*}
+
+\begin{itemize*}
+  \setlength{\itemsep}{1pt}
+  \item \textbf{\small{Created personal website}} \hfill {\small{{\textbf{[July '18 - Aug '18]}}}\/} 
+\begin{itemize*}
+	\item Used the Hugo web framework coupled with Google Firebase to deploy it.
+	
+\end{itemize*}
+\end{itemize*}
+
+
+\begin{itemize*}
+  \setlength{\itemsep}{1pt}
+  \item \textbf{\small{Vocabulary tracker script}} \hfill {\small{{\textbf{[Aug '17 - Sep '17]}}}\/} 
+\begin{itemize*}
+	\item A script which keeps a tab on how many words we have learnt from Memrise website and plots a visual growth chart.
+	\item Employs the selenium module to access the website, logs onto it and scrapes the number of words learnt on that given day, then by using the openpyxl module, it logs the data into excel, from which a visual growth chart is created.
+\end{itemize*}
+\end{itemize*}
+
+
+
+
+
+\colorbox{titleColor}{\parbox{6.7in}{\textbf{Academic Projects}}}
+
+\begin{itemize*}
+  \setlength{\itemsep}{1pt}
+  \item \textbf{Robotics Lab Project - Face detection using Raspberry Pi 3} \\
+{(Guide : Prof. Vibha Damodara, MIT Manipal)}  
+\hfill {\small{{\textbf{[March '19 - April '19]}}\/}}
+\begin{itemize*}
+
+  \setlength{\itemsep}{.00pt}
+      \item \textbf{Abstract} Build an economical portable face detection mechanism using machine learning and image processing algorithms.
+      \item Implemented a face detection algorithm using haar-cascades and LBPHFacerecognizer module, loaded on top of Raspberry Pi 3 to solve the problem statement.
+	  \item Results - The algorithm was trained to recognize 4 faces, with an accuracy of 70\% and a tweak on reduction in input stream resolution size to increase speed by 2x, to improve performance despite dataset limitations.
+\end{itemize*}
+\end{itemize*}
+
+
+
+\begin{itemize*}
+  \setlength{\itemsep}{1pt}
+  \item \textbf{Thermodynamics Project - Plot the Coefficient of performance vs evaporator temperature using Python code
+}  \\
+{(Guide : Prof. Shashank Pansari, MIT Manipal)} \hfill {\small{{\textbf{[Aug '17 - Sep '17]}}\/}}
+\begin{itemize*}
+  \setlength{\itemsep}{.00pt}
+      \item \textbf{Abstract}: The effect of evaporator temperature on the coefficient of performance of a heat pump is to be visualized.
+      \item  A python script is used to achieve the visual plots by using matplotlib and extracting data from the available dataset from an excel file.
+The output is displayed with the help of an interactive GUI interface using WX module
+and tkinter.
+	  \item Results - The plotted output graphs indicated that as the temperature increased the COP also increases.
+  
+\end{itemize*}
+\end{itemize*}
+
+
+
+\colorbox{titleColor}{\parbox{6.7in}{\textbf{Relevant Courses}}}\\[0.08in]
+\begin{tabular}{p{3.5in}p{3in}p{2.5in}}
+\hspace{0.9pc}$\bullet$ Neural Networks and Deep Learning &$\bullet$ Improving Deep Neural Networks\\[0.05in]
+\hspace{0.9pc}$\bullet$ Sequence Models &$\bullet$ Convolutional Neural Networks\\[0.05in]
+\hspace{0.9pc}$\bullet$ Introduction to Data Science&$\bullet$ Machine learning \\[0.05in]
+\end{tabular}
+\\\\
+
+%\colorbox{titleColor}{\parbox{6.7in}{\textbf{Scholastic Achievements}}}\\
+%\begin{itemize}
+%\setlength{\itemsep}{1pt}
+%\item Recipient of \textbf{Research Assistant Scholarship} at Indian Institute of Technology Bombay by Ministry of Human
+%Resource Development, Government of India
+%\item \textbf{Dean's Appreciation Letter} from Faculty Coordinator, Student Mentor Program; Dean, Student Affairs and Dean,
+%Academic Program, IIT Bombay for remarkable efforts on student mentoring of post graduate students as the overall coordinator of Institute Student Companion Program, IIT Bombay.
+%\end{itemize}
+
+\colorbox{titleColor}{\parbox{6.7in}{\textbf{Positions of Responsibility}}}\\
+
+\textbf{President, Scio Benevolent Foundation (NGO)}  \hfill {\small{{\textbf{[April '18 - April '19]}}}\/}                        
+\begin{itemize*}
+\item Lead a team of 45 members to work on three social issues: Career guidance, Menstrual hygiene awareness, conducting free medical camps.
+\item During our tenure, we conducted 5 career guidance sessions, addressing around 600 students, 1 medical camp serving 70 people, 5 menstrual hygiene awareness sessions along with distribution of cloth pads (in selected places) reaching out to around 200 people.
+\item During our tenure we transitioned from college club to university-run club.
+\end{itemize*}
+
+\textbf{Class Representative, MIT, Manipal}  \hfill {\small{{\textbf{[July '16 - April '18]}}}\/}                        
+\begin{itemize*}
+\item Was elected as representative amongst 85 undergraduate students.
+\item Primary responsibility was to act as a bridge between classmates and the authorities from the Institute's departments.
+\item Skills picked up were dealing with 85 students in a cordial manner and arriving at win-win situations for faculties and students both.
+
+\end{itemize*}
+
+
+\colorbox{titleColor}{\parbox{6.7in}{\textbf{Volunteer Experiences}}}
+
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \item Scio Foundation (NGO):
+  Gave career guidance to 9th and 10th-grade kids along with our fellow volunteers. We organised 2 free medical camps in the villages of Udupi which served 190 people in total.\hfill {\small{{[Apr '17 - Apr '18]}}\/} 
+\end{itemize}
+
+\colorbox{titleColor}{\parbox{6.7in}{\textbf{Hobbies and Interests}}}
+%\vspace{0.5 pt}
+
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \item Memory training, Reading psychology books, non-fiction, Cycling, Learning new languages.
+\end{itemize}
+
+\textit{Updated on 30th May 2019}
+\end{document}
+
