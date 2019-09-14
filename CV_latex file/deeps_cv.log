@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2019.5.29)  3 AUG 2019 06:52
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2019.5.29)  15 SEP 2019 01:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -494,49 +494,49 @@ Overfull \hbox (1.65213pt too wide) in paragraph at lines 137--138
  []
 
 
-Overfull \hbox (1.65213pt too wide) in paragraph at lines 172--173
+Overfull \hbox (1.65213pt too wide) in paragraph at lines 184--185
 [][][][][][][] 
  []
 
 [1
 
 ]
-Overfull \hbox (1.65213pt too wide) in paragraph at lines 208--216
+Overfull \hbox (1.65213pt too wide) in paragraph at lines 220--228
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--216
+Underfull \hbox (badness 10000) in paragraph at lines 220--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--216
+Underfull \hbox (badness 10000) in paragraph at lines 220--228
 
  []
 
 
-Overfull \hbox (1.65213pt too wide) in paragraph at lines 243--244
+Overfull \hbox (1.65213pt too wide) in paragraph at lines 240--241
 [][][][][][][] 
  []
 
 
-Overfull \hbox (1.65213pt too wide) in paragraph at lines 256--257
+Overfull \hbox (1.65213pt too wide) in paragraph at lines 281--282
 [][][][][][][] 
  []
 
 
-Overfull \hbox (1.65213pt too wide) in paragraph at lines 264--266
+Overfull \hbox (1.65213pt too wide) in paragraph at lines 289--291
 [][][][][][][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./deeps_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 273.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 273.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 298.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
  ) 
 Here is how much of TeX's memory you used:
  9633 strings out of 495536
@@ -545,6 +545,6 @@ Here is how much of TeX's memory you used:
  12818 multiletter control sequences out of 15000+600000
  7623 words of font info for 31 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 29i,14n,30p,348b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,14n,30p,348b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on deeps_cv.pdf (2 pages).
